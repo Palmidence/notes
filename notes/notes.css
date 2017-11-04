@@ -23,7 +23,7 @@ ul{
 ul li a{
   text-decoration:none;
   color:#000;
-  background:#ffc;
+  background:#FAF2B3;
   display:block;
   height:10em;
   width:10em;
@@ -89,3 +89,19 @@ ul li a:hover,ul li a:focus{
 ol{text-align:center;}
 ol li{display:inline;padding-right:1em;}
 ol li a{color:#fff;}
+}
+ul li:nth-child(even) a{
+  background:#dffab3;
+}
+ul li:nth-child(3n) a{
+  background:#facfb3;
+}
+ul li:nth-child(4n) a{
+  background:#b3bbfa;
+}
+ul li:nth-child(5n) a{
+  background:#cfb3fa;
+}
+ul li:nth-child(6n) a{
+  background:#b3facf;
+}
